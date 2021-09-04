@@ -15,6 +15,7 @@
   src: url("../Fonts/RobotoSlab-Bold.ttf") format("truetype");
 }
 .container {
+    padding: 0 30px;
     max-width: 1600px;
 }
 * {
@@ -118,11 +119,19 @@ li {
   padding-top: 0;
 }
 #main-header .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+}
+
+#main-header .logo .toggleBtn {
+  margin-right: 10px;
+
 }
 #main-header .logo h3{
   font-family: OpenSans-ExtraBold;
@@ -566,7 +575,7 @@ li {
   }
   section.professional .image{
     margin-top: -80px;
-
+    margin-bottom: -7px;
   }
 
   section.whatnew {
@@ -763,11 +772,31 @@ li {
   }
 
  
-  @media (min-width:991px) {
- 
+  @media (min-width:991px) and (max-width:1360px) {
+    .navbar-light .navbar-nav .nav-link {
+      font-size: 12px;
+      text-align: center;
+    }
+    #main-header .container {
+      padding: 0 10px;
+    }
+    .navbar-nav .nav-item:not(:last-child) {
+      margin-right: 10px;
+    }
+    section.banner {
+      padding-top: 80px;
+    }
+    section.banner .bannerText .image {
+      margin-top: 20px;
+    }
   }
   @media (max-width:1500px) {
-    
+
+  }
+  @media (max-width:1360px) {
+    .navbar-nav .nav-item:not(:last-child) {
+      margin-right: 15px;
+    }
   }
   @media only screen and (max-width: 1200px) {
     .w-9 {
