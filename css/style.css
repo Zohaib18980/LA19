@@ -128,7 +128,9 @@ li {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-
+#main-header .logo .logotext {
+  margin-right: 30px;
+}
 #main-header .logo .toggleBtn {
   margin-right: 10px;
 
