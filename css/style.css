@@ -7,7 +7,7 @@
   src: url("../Fonts/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: Roboto-Bold;
+  font-family: Roboto-Medium;
   src: url("../Fonts/Roboto-Bold.ttf") format("truetype");
 }
 @font-face {
@@ -605,7 +605,7 @@ li {
     margin-bottom: 20px;
   }
   section.whatnew .whatnewInner .desc a {
-    font-family: OpenSans-ExtraBold;
+    font-family: Roboto-Medium;
     font-size: 14px;
     color: #F77E0B;
   }
@@ -666,7 +666,7 @@ li {
   }
   footer .footerContent ul li a{
     font-size: 14px;
-    color: #ffffff;
+    color: #DBF8FF;
     margin: 0;
     font-weight: 300;
   }
